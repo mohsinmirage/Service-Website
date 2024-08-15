@@ -1,0 +1,483 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background img {
+    width: 100%;
+}
+
+.header {
+    position: fixed;
+    top: 0%;
+    left: 5%;
+    display: inline-block;
+}
+
+.mensheader {
+    position: relative;
+    top: 0%;
+    left: 5%;
+    display: inline-block;
+}
+
+.bgcolor {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    z-index: 1;
+}
+
+.threeline img {
+    width: 8%;
+    position: relative;
+    top: 40px;
+    right: 4%;
+}
+
+.navimg {
+    position: relative;
+    left: 3%;
+}
+
+.noneimg1 {
+    display: none;
+}
+
+.navimg img {
+    height: auto;
+    max-width: 60%;
+}
+
+.navimg ul {
+    margin-top: 10px;
+    list-style: none;
+    text-align: center;
+    display: flex;
+}
+
+.navimg li a {
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.search {
+    position: relative;
+    /* float: left; */
+    left: 98rem;
+    bottom: 80px;
+}
+
+.searchimg1 {
+    margin: 0 10px;
+    width: 16px;
+}
+
+.searchimg2 {
+    display: none;
+}
+
+.video1 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 35px;
+    z-index: -1;
+}
+
+.video2 {
+    display: none;
+}
+
+.background2img1 {
+    width: 100%;
+    position: relative;
+    top: 70px;
+    z-index: -1;
+}
+
+.background2img2 {
+    display: none;
+    width: 100%;
+    position: relative;
+    top: 70px;
+    z-index: -1;
+}
+
+.main {
+    height: 100vh;
+    /* padding-top: 110px; */
+    position: relative;
+    top: 60vh;
+    margin: auto;
+}
+
+h2 {
+    width: 14%;
+    position: relative;
+    left: 42%;
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+
+.emailinput input {
+    position: relative;
+    left: 39%;
+    top: 45px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    width: 20%;
+    height: 2rem;
+    /* letter-spacing: 6px; */
+}
+
+.main img {
+    width: 42px;
+    position: relative;
+    top: 2px;
+    left: 57%;
+}
+
+.colum {
+    position: relative;
+    top: 23%;
+    right: 1%;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.colum1 {
+    width: auto;
+}
+
+.colum1 strong {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.colum1 p {
+    font-style: italic;
+    font-weight: 200;
+    padding-top: 20px;
+}
+
+.colum2 {
+    width: auto;
+}
+
+.colum2 strong {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.colum2 p {
+    font-style: italic;
+    font-weight: 200;
+    padding-top: 20px;
+}
+
+.colum3 {
+    width: auto;
+}
+
+.colum3 strong {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.colum3 p {
+    font-style: italic;
+    font-weight: 200;
+    padding-top: 20px;
+}
+
+.colum4 {
+    width: auto;
+}
+
+.colum4 strong {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.colum4 p {
+    font-style: italic;
+    font-weight: 200;
+    padding-top: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+    top: 60vh;
+    text-align: center;
+    background-color: #000;
+}
+
+footer p {
+    padding-top: 5px;
+    color: white;
+}
+
+/* MENS PAGE CSS */
+.mensmain {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    position: relative;
+    top: 40vh;
+    left: 2.5%;
+    z-index: -1;
+}
+
+.mensmain1 {
+    position: relative;
+    left: 2%;
+    width: 25%;
+    text-align: center;
+    padding: 2px;
+}
+
+.mensmain1p1 {
+    width: 15%;
+    padding: 3px;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+}
+
+.mensmain1p2 {
+    width: 35vh;
+    padding: 4px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+}
+
+.mensmain1p3 {
+    position: relative;
+    top: 12px;
+    right: 4.5%;
+    letter-spacing: 3px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    width: 25vh;
+}
+
+.mensmainS2 {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    position: relative;
+    top: 50vh;
+    left: 2.5%;
+    z-index: -1;
+}
+
+.mensmainS3 {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    position: relative;
+    top: 60vh;
+    left: 2.5%;
+    z-index: -1;
+}
+
+.mensmainS4 {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    position: relative;
+    top: 70vh;
+    left: 2.5%;
+    z-index: -1;
+}
+
+.mensearch {
+    position: relative;
+    display: flex;
+    /* width: 80%; */
+    justify-content: center;
+    top: 30vh;
+    /* right: 5%; */
+    margin: 0px 60px;
+    /* margin: 0 4rem 0 7.25rem; */
+    background: #f9f9f9;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #000;
+    padding-right: 0;
+}
+
+.mensearchimg1 {
+    position: relative;
+    /* top: 0vh; */
+    right: 46.4%;
+    width: 12px;
+}
+
+.mensearchp1 {
+    position: relative;
+    top: 1px;
+    right: 46.4%;
+    font-size: small;
+}
+
+.mensearchp2 {
+    font-size: small;
+}
+
+.mensearchimg2 {
+    position: relative;
+    top: 3px;
+    left: 44.2%;
+    width: 10px;
+    height: 13px;
+}
+
+.mensearchp3 {
+    position: relative;
+    top: 3px;
+    left: 44.4%;
+    font-size: small;
+}
+
+@media (min-width:320px) and (max-width:767px) {
+    .background1 {
+        display: none;
+    }
+
+    .noneimg1 {
+        display: block;
+    }
+
+    .navimg img {
+        position: fixed;
+        right: 22%;
+        margin: auto;
+        height: auto;
+        width: 55%;
+        top: 10px;
+    }
+
+    .navimg ul {
+        position: fixed;
+        top: 70px;
+        right: 52px;
+        font-size: 12px;
+    }
+
+    .threeline img {
+        width: 20px;
+        position: relative;
+        top: 35px;
+        left: 2%;
+    }
+
+    .searchimg1 {
+        position: fixed;
+        left: 289px;
+        top: 40px;
+        margin: 0 10px;
+        width: 15px;
+    }
+
+    .searchimg2 {
+        display: inline;
+        position: fixed;
+        left: 270px;
+        top: 41px;
+        margin: 0 10px;
+        width: 15px;
+    }
+
+    .video1 {
+        display: none;
+    }
+
+    .video2 {
+        display: inline;
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 0px;
+        z-index: -1;
+    }
+
+    .background2img1 {
+        display: none;
+    }
+
+    .background2img2 {
+        display: block;
+        position: relative;
+        top: -4px;
+        z-index: -1;
+    }
+
+    h2 {
+        width: 61%;
+        position: relative;
+        left: 22.5%;
+        text-align: center;
+        font-size: 15px;
+        letter-spacing: 4px;
+    }
+
+    .emailinput input {
+        position: relative;
+        left: 26%;
+        top: 45px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        outline: none;
+        width: 50%;
+        height: 2rem;
+        /* letter-spacing: 6px; */
+    }
+
+    .main img {
+        width: 42px;
+        position: relative;
+        top: 2px;
+        left: 66%;
+    }
+
+    .colum {
+        position: relative;
+        top: 23%;
+        text-align: center;
+        display: inline;
+    }
+
+    .colum1 {
+        position: relative;
+        top: 20px;
+    }
+    .colum2 {
+        position: relative;
+        top: 70px;
+    }
+    .colum3 {
+        position: relative;
+        top: 90px;
+    }
+    .colum4 {
+        position: relative;
+        top: 120px;
+    }
+    footer {
+        top: 157vh;
+    }
+    
+
+}
